@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I'm the one</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .box1 {
+      width: 100%;
+      height: 75px;
+      background-color: blue;
+      color: white;
+      text-align: center;
+      position: absolute;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .box2 {
+      width: 100%;
+      background-color: transparent;
+      text-align: center;
+      color: blue;
+      position: absolute;
+    }
+    .container {
+      width: 70%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    /* .container:hover {
+      transform: rotate(20deg);
+    } */
+    /* @keyframes translating {
+    0%  { transform: translate(-100%, -300px);}
+    25% { transform: translate(0, 0);}
+    50% { transform: translate(0, 0);}
+    75% { transform: translate(0, 0);}
+    100%{ transform: translate(-50%, -50%);}
+    }
+    .container{ animation: translating 4s linear infinite;} */
+
+    h1,h2 {
+      font-size: 120px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1">
+      <h1>I'm The One</h1>
+    </div>
+    <div class="box2">
+      <h2>I'm The One</h2>
+    </div>
+  </div>
+</body>
+</html>
